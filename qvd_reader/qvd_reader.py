@@ -4,7 +4,7 @@ from win32com.client import Dispatch
 import pandas as pd
 
 
-file_path = 'C:\\Users\\Anton Aksynov\\Desktop\\CurrencyRates.qvd'
+file_path = '<file path>'
 
 
 def qvd_to_pandas(src_qvd):
