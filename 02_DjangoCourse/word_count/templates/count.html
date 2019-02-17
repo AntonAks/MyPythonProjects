@@ -1,0 +1,11 @@
+<h1>THIS IS THE COUNT RESULT PAGE</h1>
+<form action="{% url 'home_page' %}">
+  <button type="submit" value="Go Home">Go Home</button>
+</form>
+
+<br />
+
+<h2>Text form home page:</h2>
+{{ text }}
+<br />
+<h2>There are {{ words_number }} word(s) in your text</h2>
